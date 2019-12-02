@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+</head>
+
+<body>
+
+    <script>
+        (function readyJs(win, doc) {
+            'use strict'
+            // let arr = [1, 2, "daniel", { age: 18 }, null]
+            // let obj = {
+            //     name: 'daniel',
+            //     city: 'bh'
+            // }
+            // for (let i = 0; i < arr.length; i++) {
+            //     if (typeof arr[i] === "object") {
+            //         console.log(arr[i])
+            //     }
+            // }
+            // console.log(Array.isArray(arr))
+          
+            let data = {
+                car:{
+                    name: 'fusca',
+                    ano: 1999
+                }
+            }
+
+            let user = '{"name": "daniel", "age": "18"}'
+
+            console.log(JSON.stringify(data))
+            // console.log(JSON.parse(user))
+
+        })(window, document)
+    </script>
+
+</body>
+
+</html>
